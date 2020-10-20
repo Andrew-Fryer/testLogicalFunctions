@@ -6,7 +6,7 @@ const findUnequalBehaviour = (f, g, n) => generateArgs(n).map(args => f(...args)
 
 let f = (a, b) => !(a && b);
 let g = (a, b) => !a || !b;
-console.log(findUnequalBehaviour(f, g, 2));
+//console.log(findUnequalBehaviour(f, g, 2));
 
 
 Object.assign(module.exports, {
